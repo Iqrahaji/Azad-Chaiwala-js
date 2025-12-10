@@ -1,0 +1,37 @@
+* {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(229, 244, 255);
+}
+
+header {
+    background-color: rgb(0, 30, 128);
+    padding: 15px;
+}
+
+table{
+    margin: 25px auto;
+
+}
+
+table th{
+    background-color: rgb(6, 82, 118);
+    padding: 10px;
+}
+
+table td{
+    background-color: #0c91f0;
+        padding: 10px;
+}
+
+button{
+    background-color: #02318f;
+    padding: 5px;
+}
+p{
+    margin: 10px;
+}
