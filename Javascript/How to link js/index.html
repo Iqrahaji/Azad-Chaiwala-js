@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How to link Javascript.</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>How to link js file to html</h1>
@@ -20,10 +22,10 @@
             </thead>
             <tbody>
                 <th>How to do?</th>
-                <td>Write js in the code of html using the functions name like 
+                <td>Write js in the code of html using the functions name like
                     <p>&lt;button&gt;
                         onClick=alert("Hey did you see me")
-                       &lt;button&gt;
+                        &lt;button&gt;
                     </p>
                     <p>now click this to show how it works.
                         <button onclick="alert(`Hi did you see it works well.`)">Click me!</button>
@@ -31,20 +33,38 @@
                 </td>
                 <td>
                     <p>After writting whole html in the body write js in the bottom of html(in body).
-                        <p>&lt;body&gt;
-                           <p></p> <button id="btn">Click me!</button></p>
-                            whole designed html.
-                            &lt;script&gt;
-                            documentgetbyelement
-                            &lt;/script&gt;
-                            &lt;/body&gt;
-                        </p>
+                    <p>&lt;body&gt;
+                    <p></p> <button id="btn">Click me!</button></p>
+                    whole designed html.
+                    <p>
+                        &lt;script&gt;
+                    </p>
+                    <p>
+                        document.getElementById("btn").onclick = function(){</p>
+                    <p>
+                        alert("hey, now you know about the use of script tag.")
+                        }</p>
+                    &lt;/script&gt;
+                    &lt;/body&gt;
+                    </p>
                     </p>
                 </td>
 
+                <td>
+                    Write script in a specific file which contains the js.
+                    <p>
+                        This is the file name.
+                    <h3>script.js</h3>
+                    </p>
+                    and link by this code.
+                    <p>&lt;script src="script.js"&gt;&lt;/script&gt;</p>
+                    <p>and write the whole js in this file.</p>
+                </td>
             </tbody>
             <tfoot></tfoot>
         </table>
     </main>
+    <script src="script.js"></script>
 </body>
+
 </html>
